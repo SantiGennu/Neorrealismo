@@ -76,6 +76,7 @@ article img {
 .form-control{
     width: 50% ;
     margin: 0 auto;
+    box-shadow:4px 4px 4px 4px #2F5D62;
 
 }
 .text-area{
@@ -84,7 +85,6 @@ article img {
     margin: 0 auto;
 }
 
-    
 
 .gridcontainer {
     display: grid;
