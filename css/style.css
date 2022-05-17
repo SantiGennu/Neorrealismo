@@ -70,6 +70,19 @@ article img {
     margin: 10px;
 
 }
+.option{
+    font-size: 15px;
+}
+.form-control{
+    width: 50% ;
+    margin: 0 auto;
+
+}
+.text-area{
+    height: 200px;
+    width: 50%;
+    margin: 0 auto;
+}
 
     
 
@@ -379,6 +392,12 @@ footer img{
     }
     .text-muted{
         font-size: 1.3em;
+    }
+    .option{
+        font-size: 10px;
+    }
+    .option{
+        font-size: 20px;
     }
 
     @media (min-width: 1280px) {

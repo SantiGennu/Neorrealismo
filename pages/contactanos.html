@@ -44,42 +44,33 @@
         </div>
     </section>
     <main class="main_container" >
-        <form >
-            <div>
-            <label id="nombre" for="nombre">Nombre</label>
-            <input id="nombre" name="nombre" placeholder="nombre">
-            <br>
-            <br>
-            <label for="apellido">Apellido</label>
-            <input id="apellido" name="apellido" placeholder="apellido">
-            <br>
-            <br>
-            <label id="telefono" for="telefono">Teléfono</label>
-            <input name="telefono" placeholder="telefono">
-            <br>
-            <br>
-            <label>Correo electronico</label>
-            <input id="correo" name="correo" placeholder="correo">
-            <br>
-            <br>
-            <label for="asunto">Asunto del mensaje</label>
-            <select name="asunto">
-                <option value="op">Opinión</option>
-                <option value="co">Consulta</option>
-            </select>
-            <br>
-            <br>
-           <label>Comentario</label> 
-            <br>
-            <textarea cols="50" rows="10" id="comentario" placeholder="ingrese comentario" name="comentario"></textarea>
-            <br>
-            <button type="submit" name="button">Enviar</button>
-        </div>
-        <div>
-            <img src="imagenes/roma.jpg" alt="">
-        </div>
-
-        </form>
+      <form>
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+        <input type="nombre" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Apellido</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Apellido">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Teléfono</label>
+        <input type="apellido" class="form-control" id="exampleFormControlInput1" placeholder="Teléfono">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Email</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
+      </div>
+      <label for="exampleFormControlInput1" class="form-label">Asunto del mensaje</label>
+      <select name="asunto" class="option">
+        <option value="op" class="option">Opinión</option>
+        <option value="co" class="option">Consulta</option>
+    </select>
+      </div>
+      <div class="mb-3 mt-5">
+        <textarea class="text-area form-control" id="exampleFormControlTextarea1" rows="3"  placeholder="Comentario"></textarea>
+      </div>
+    </form>
     </main>
     <br>
     <footer class="d-flex flex-wrap align-items-center py-3 my-4 border-top">
