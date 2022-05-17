@@ -387,6 +387,7 @@ footer img{
     .row{
         padding-left: 0%;
         justify-content: center;
+        gap: 40px
     }
 
     @media (min-width: 1280px) {
@@ -493,7 +494,7 @@ footer img{
                 }
 .row{
    justify-content: center;
-   gap: 50px;
+   gap: 100px;
     
 }
     }
