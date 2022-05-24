@@ -1,0 +1,24 @@
+{
+	"version": 3,
+	"file": "estilos.css",
+	"sources": [
+		"../scss/estilos.scss",
+		"../scss/_base.scss",
+		"../scss/_colores.scss",
+		"../scss/_estructura.scss",
+		"../scss/_responsive.scss",
+		"../scss/_decoracion.scss",
+		"../scss/_imagenes.scss"
+	],
+	"sourcesContent": [
+		"@import \"base\";\r\n@import \"colores\";\r\n@import \"estructura\";\r\n@import \"responsive\";\r\n@import \"decoracion\";\r\n@import \"imagenes\";",
+		"* {\r\n    margin: 0;\r\n    padding: 0;\r\n    box-sizing: border-box;\r\n}",
+		"",
+		"nav ul {\r\n    list-style: none;\r\n}\r\narticle ul {\r\n    display: flex;\r\n    flex-direction: column;\r\n    align-items: center;\r\n}\r\nform {\r\n    font-size: 1.2em;\r\n    font-weight: bold;\r\n    color: #2F5D62;\r\n}\r\narticle ul li {\r\n    font-size: 1em\r\n}\r\n",
+		"",
+		"",
+		"section img {\r\n    width: 250px;\r\n    height: 200px;\r\n    margin: 10px;\r\n}\r\n\r\narticle img {\r\n    width: 250px;\r\n    height: 200px;\r\n    margin: 10px;\r\n\r\n}\r\n"
+	],
+	"names": [],
+	"mappings": ";ACAA,AAAA,CAAC,CAAC;EACE,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,UAAU;CACzB;;;AEJD,AAAA,GAAG,CAAC,EAAE,CAAC;EACH,UAAU,EAAE,IAAI;CACnB;;;AACD,AAAA,OAAO,CAAC,EAAE,CAAC;EACP,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,WAAW,EAAE,MAAM;CACtB;;;AACD,AAAA,IAAI,CAAC;EACD,SAAS,EAAE,KAAK;EAChB,WAAW,EAAE,IAAI;EACjB,KAAK,EAAE,OAAO;CACjB;;;AACD,AAAA,OAAO,CAAC,EAAE,CAAC,EAAE,CAAC;EACV,SAAS,EAAE,GACf;CAAC;;;AGfD,AAAA,OAAO,CAAC,GAAG,CAAC;EACR,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;EACb,MAAM,EAAE,IAAI;CACf;;;AAED,AAAA,OAAO,CAAC,GAAG,CAAC;EACR,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;EACb,MAAM,EAAE,IAAI;CAEf"
+}

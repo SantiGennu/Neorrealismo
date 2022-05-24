@@ -1,0 +1,53 @@
+$colorPrimario: #2F5D62;
+$colorSecundario: rgba(145, 6, 6, 0.758);
+
+h1 {
+    color: #DFEEEA;
+}
+
+h2 {
+    color: #DFEEEA;
+    background-color: $colorPrimario;
+}
+
+.directores {
+    color: $colorSecundario;
+}
+
+.gridcontainer {
+    background-color: #DFEEEA;
+}
+
+.gridcontainer2 {
+    background-color: #DFEEEA;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+.titulo_container {
+    background-color: $colorSecundario;
+}
+
+.text-muted {
+    color: white !important
+}
+
+footer {
+    background-color: $colorPrimario;
+}
+
+.pie {
+    color: $colorPrimario;
+}
+
+.btn-success {
+    background-color: $colorPrimario;
+}
+
+.letra::first-letter {
+    font-size: 200%;
+    color: $colorSecundario;
+    font-family: 'Open Sans', sans-serif;
+}

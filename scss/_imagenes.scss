@@ -1,0 +1,28 @@
+section img {
+    width: 250px;
+    height: 200px;
+    margin: 10px;
+}
+
+article img {
+    width: 250px;
+    height: 200px;
+    margin: 10px;
+
+}
+.fotos {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.foto2 {
+    display: none;
+}
+
+.foto3 {
+    display: none;
+}
+footer img {
+    width: 30px;
+}
