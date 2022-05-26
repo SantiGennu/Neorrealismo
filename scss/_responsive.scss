@@ -59,20 +59,21 @@
         grid-template-areas:
             "columna1 columna2";
         grid-area: main_container2;
+        .columna1 {
+            grid-area: columna1;
+        }
+    
+        .columna2 {
+            grid-area: columna2;
+        }
+    
+        .columna3 {
+            grid-area: columna3;
+            display: none;
+        }
     }
 
-    .columna1 {
-        grid-area: columna1;
-    }
-
-    .columna2 {
-        grid-area: columna2;
-    }
-
-    .columna3 {
-        grid-area: columna3;
-        display: none;
-    }
+    
 
     section img {
         width: 320px;
@@ -176,6 +177,18 @@
             grid-template-areas:
                 "columna1 columna2 columna3";
             grid-area: main_container2;
+            .columna1 {
+                grid-area: columna1;
+            }
+    
+            .columna2 {
+                grid-area: columna2;
+            }
+    
+            .columna3 {
+                grid-area: columna3;
+                display: block;
+            }
         }
 
         .columna1 {

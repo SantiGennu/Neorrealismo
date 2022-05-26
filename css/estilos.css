@@ -191,6 +191,9 @@ footer img {
 form .form-control {
   box-shadow: 4px 4px 4px 4px #2F5D62; }
 
+button:hover {
+  background-color: #0f373a82; }
+
 @media (min-width: 768px) {
   .foto2 {
     display: block; }
@@ -228,13 +231,13 @@ form .form-control {
     gap: 0px 0px;
     grid-template-areas: "columna1 columna2";
     grid-area: main_container2; }
-  .columna1 {
-    grid-area: columna1; }
-  .columna2 {
-    grid-area: columna2; }
-  .columna3 {
-    grid-area: columna3;
-    display: none; }
+    .main_container2 .columna1 {
+      grid-area: columna1; }
+    .main_container2 .columna2 {
+      grid-area: columna2; }
+    .main_container2 .columna3 {
+      grid-area: columna3;
+      display: none; }
   section img {
     width: 320px;
     height: 300px; }
@@ -297,6 +300,13 @@ form .form-control {
     gap: 0px 0px;
     grid-template-areas: "columna1 columna2 columna3";
     grid-area: main_container2; }
+    .main_container2 .columna1 {
+      grid-area: columna1; }
+    .main_container2 .columna2 {
+      grid-area: columna2; }
+    .main_container2 .columna3 {
+      grid-area: columna3;
+      display: block; }
   .columna1 {
     grid-area: columna1; }
   .columna2 {
