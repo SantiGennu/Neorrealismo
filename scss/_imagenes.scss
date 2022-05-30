@@ -1,15 +1,20 @@
+@mixin foto( $ancho, $alto){
+    height: $alto;
+    width: $ancho;
+}
+@mixin margen( $margen ){
+    margin: $margen;
+}
 section img {
-    width: 250px;
-    height: 200px;
-    margin: 10px;
+@include foto(397px,300px );
+@include margen(15px);
 }
 
-article img {
-    width: 250px;
-    height: 200px;
-    margin: 10px;
-
+article img{
+    @include foto (250px, 200px);
+    @include margen(10px);
 }
+
 .fotos {
     display: flex;
     justify-content: center;

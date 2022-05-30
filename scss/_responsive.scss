@@ -9,16 +9,15 @@
     }
 
     .segunda_fila {
-        display: flex;
+        @extend .primera_fila;
         flex-direction: row-reverse;
-        align-items: center;
+        
     }
 
     ul {
-        display: flex;
+        @extend .primera_fila;
         flex-direction: row;
         justify-content: space-evenly;
-        align-items: center;
     }
 
 
@@ -76,7 +75,7 @@
     
 
     section img {
-        width: 320px;
+        width: 397px;
         height: 300px;
     }
     .logo-italiano img{
@@ -189,23 +188,10 @@
                 grid-area: columna3;
                 display: block;
             }
-        }
-
-        .columna1 {
-            grid-area: columna1;
-        }
-
-        .columna2 {
-            grid-area: columna2;
-        }
-
-        .columna3 {
-            grid-area: columna3;
-            display: block;
-        }
+       
 
         section img {
-            width: 320px;
+            width: 397px;
             height: 300px;
         }
 
@@ -227,6 +213,6 @@
         footer img {
             width: 50px;
         }
-
-      
     }
+    
+     }

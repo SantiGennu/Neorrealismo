@@ -160,13 +160,13 @@ footer {
   font-family: 'Open Sans', sans-serif; }
 
 section img {
-  width: 250px;
-  height: 200px;
-  margin: 10px; }
+  height: 300px;
+  width: 397px;
+  margin: 15px; }
 
 article img {
-  width: 250px;
   height: 200px;
+  width: 250px;
   margin: 10px; }
 
 .fotos {
@@ -197,18 +197,14 @@ button:hover {
 @media (min-width: 768px) {
   .foto2 {
     display: block; }
-  .primera_fila {
+  .primera_fila, .segunda_fila, ul {
     display: flex;
     align-items: center; }
   .segunda_fila {
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center; }
+    flex-direction: row-reverse; }
   ul {
-    display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center; }
+    justify-content: space-evenly; }
   nav li a {
     margin: 0 10px;
     font-size: 1.2em; }
@@ -239,7 +235,7 @@ button:hover {
       grid-area: columna3;
       display: none; }
   section img {
-    width: 320px;
+    width: 397px;
     height: 300px; }
   .logo-italiano img {
     width: 80px;
@@ -307,23 +303,16 @@ button:hover {
     .main_container2 .columna3 {
       grid-area: columna3;
       display: block; }
-  .columna1 {
-    grid-area: columna1; }
-  .columna2 {
-    grid-area: columna2; }
-  .columna3 {
-    grid-area: columna3;
-    display: block; }
-  section img {
-    width: 320px;
-    height: 300px; }
-  article img {
-    width: 320px;
-    height: 300px;
-    margin: 10px; }
-  article ul li {
-    font-size: 1.6em; }
-  h3 {
-    font-size: 2.2; }
-  footer img {
-    width: 50px; } }
+    .main_container2 section img {
+      width: 397px;
+      height: 300px; }
+    .main_container2 article img {
+      width: 320px;
+      height: 300px;
+      margin: 10px; }
+    .main_container2 article ul li {
+      font-size: 1.6em; }
+    .main_container2 h3 {
+      font-size: 2.2; }
+    .main_container2 footer img {
+      width: 50px; } }
