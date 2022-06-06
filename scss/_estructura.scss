@@ -20,7 +20,6 @@
     text-align: center;
 
 }
-
 .main_container2 {
     display: grid;
     grid-template-columns: 1fr;
@@ -28,13 +27,13 @@
     gap: 0px 0px;
     grid-area: main_container2;
     text-align: center;
-    grid-template-areas: "columna1";
-}
+    grid-template-areas: "columna1"; }
+
 .descripcion {
     display: flex;
-    text-align: center;
     align-items: center;
     justify-content: center;
+    text-align: center;
     flex-wrap: wrap;
     padding: 20px;
 
@@ -85,7 +84,7 @@ form {
         box-shadow: 4px 4px 4px 4px #2F5D62;
        
     }
-    .option {
+    .asunto {
         font-size: 15px;
     }
     .text-area {
@@ -99,7 +98,6 @@ form {
         font-weight: 600;
         font-size: 1em;
     }
-
 
 
 

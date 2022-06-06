@@ -78,8 +78,8 @@
         width: 397px;
         height: 300px;
     }
-    .logo-italiano img{
-        width: 80px;
+    .logo-italiano{
+        width: 120px;
         height: 80px;
     }
 
@@ -132,6 +132,13 @@
     .option {
         font-size: 20px;
     }
+    .logo-italiano{
+        width: 100px;
+        height: 80px;
+    }
+    .logo-italiano:hover{
+        width: 120px;
+    }
 }
      @media (min-width: 1280px) {
         .foto3 {
@@ -157,6 +164,7 @@
         h2 {
             font-size: 2.2em;
         }
+        h3{ font-size: 1.8em;}
 
         p {
             font-size: 1.6em;
