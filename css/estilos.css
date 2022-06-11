@@ -35,7 +35,6 @@ a {
   text-decoration: none; }
 
 .gridcontainer {
-  max-width: 1400px;
   margin: auto; }
 
 .titulo_container {
@@ -74,7 +73,6 @@ footer {
   align-items: center;
   justify-content: center;
   gap: 20px;
-  max-width: 1400px;
   height: 140px;
   margin-bottom: 0; }
 
@@ -224,7 +222,6 @@ button:hover {
   p {
     font-size: 1.3em; }
   .gridcontainer2 {
-    max-width: 1400px;
     margin: auto;
     background-color: #DFEEEA; }
   .main_container2 {
@@ -299,10 +296,6 @@ button:hover {
     font-size: 1.8em; }
   p {
     font-size: 1.6em; }
-  .gridcontainer2 {
-    max-width: 1400px;
-    margin: auto;
-    background-color: #DFEEEA; }
   .main_container2 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
