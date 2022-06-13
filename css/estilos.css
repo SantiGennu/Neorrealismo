@@ -6,13 +6,13 @@
 h1 {
   font-size: 1.6em;
   color: #DFEEEA;
-  font-family: sans-serif;
+  font-family: 'Courgette', cursive, sans-serif;
   height: fit-content;
   text-align: center; }
 
 h2 {
   font-size: 1.2em;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Courgette', cursive, sans-serif;
   color: #DFEEEA;
   margin: 20px;
   padding: 10px 10px;
@@ -22,13 +22,13 @@ h2 {
 
 h3 {
   font-size: 1.3em;
-  font-family: sans-serif;
+  font-family:'Courgette', cursive, sans-serif ;
   margin-top: 50px; }
 
 p {
   padding: 30px;
   font-size: 1em;
-  font-family: sans-serif; }
+  font-family: 'Lobster', cursive, sans-serif; }
 
 a {
   color: #ffffff;
@@ -96,7 +96,7 @@ article ul {
   flex-direction: column;
   align-items: center; }
   article ul li {
-    font-size: 1em; }
+    font-size: 1.1em; }
 
 form {
   padding-bottom: 40px;
@@ -262,7 +262,7 @@ button:hover {
     height: 300px;
     margin: 10px; }
   article ul li {
-    font-size: 1.4em; }
+    font-size: 1.3em; }
   footer img {
     width: 50px; }
   form {
@@ -318,7 +318,7 @@ button:hover {
       height: 300px;
       margin: 10px; }
     .main_container2 article ul li {
-      font-size: 1.6em; }
+      font-size: 1.3em; }
     .main_container2 h3 {
       font-size: 2.2; }
     .main_container2 footer img {
